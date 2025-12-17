@@ -4,10 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zenmart</title>
-    <link rel="stylesheet" href="public/css/command.css" />
-    <link rel="stylesheet" href="public/css/home.css" />
+
+    <link rel="stylesheet" href="./public/css/command.css" />
+    <link rel="stylesheet" href="./public/css/home.css" />
   </head>
+
   <body>
-    <h1>Zenmart loyihasi</h1>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__top">
+          <div class="logo">Zenmart<span>.</span></div>
+
+          <div class="search">
+            <select class="search__select">
+              <option>All Categories</option>
+            </select>
+
+            <input
+              class="search__input"
+              type="text"
+              placeholder="Search product"
+            />
+
+            <button class="search__btn" aria-label="search">
+              <img src="./public/images/search.svg" alt="search" />
+            </button>
+          </div>
+
+          <div class="top-icons">
+            <div class="top-item">
+              <img
+                src="./public/images/heard.svg"
+                class="top-ic"
+                alt="wishlist"
+              />
+              <div class="top-txt">
+                <small>Wishlist</small>
+                <b>My Items</b>
+              </div>
+            </div>
+
+            <div class="top-item">
+              <img
+                src="./public/images/user.svg"
+                class="top-ic"
+                alt="account"
+              />
+              <div class="top-txt">
+                <small>Sign In</small>
+                <b>Account</b>
+              </div>
+            </div>
+
+            <div class="top-item cart">
+              <img
+                src="./public/images/cardshop.svg"
+                class="top-ic"
+                alt="cart"
+              />
+              <span class="badge">2</span>
+              <div class="top-txt">
+                <small>$200.99</small>
+                <b>Total</b>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header__bottom">
+          <div class="browse">
+            <span class="hamb">≡</span>
+            <span>Browse Categories</span>
+          </div>
+
+          <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Orders</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <div class="menu2">
+            <a href="#">Deal of the Day</a>
+            <a href="#">Hot Deals</a>
+            <a href="#">Best Sellers</a>
+            <a href="#">New Arrivals</a>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
