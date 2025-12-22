@@ -8,6 +8,7 @@ body {
 .container {
   position: relative;
   width: 1320px;
+  margin: 0 auto;
   height: auto;
   display: flex;
 }
