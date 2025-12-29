@@ -1,5 +1,4 @@
 .home_page {
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -726,6 +725,7 @@
   flex-direction: row;
   justify-content: center;
   background-color: #0053f6;
+  background-size: cover;
 }
 
 .event_frame .container {
